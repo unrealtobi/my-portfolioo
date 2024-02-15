@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #fff
+
+}
+
+#topheader {
+    background-color: #1f2235;
+    padding: 20px 80px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brandLogo {
+    width: 120px;
+}
+
+#brand img {
+    width: 100px;
+}
+
+#navbar > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navItem a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navItem a:hover {
+    color: #ff4a47;
+}
+
+#socialicons {
+    justify-content: flex-start;
+}
+
+.icon {
+    margin-right: 28px;
+    text-align: center;
+    border: 2px solid #FF4A57;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+}
+
+.icon:hover {
+    color: #FF4A57;
+    cursor: pointer;   
+}
+
+/* home section style */
+#home {
+    background-color: #24263b;
+    padding: 80px;
+}
+
+#leftcon {
+    padding: 40px;
+}
+
+
+.sectionTitle {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 18px 0;
+}
+
+.sectionP {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 44px;
+    
+}
+
+.portfolioBtn {
+    background-color: #24263b;
+    border-radius: 24px;
+    width: 180px;
+    height: 58px;
+    font-weight: 800;
+
+}
+
+#playBtn {
+    background-color: #ff4a57;
+    padding: 14px 48px;
+    font-size: 18px;
+    border-radius: 24px;
+    height: 58px;
+    border: none;
+    cursor: pointer;
+}
+.icon:hover {
+    background-color: #ff4a47;
+    transition: 0.3s;
+}
+
+#services {
+    background-color: #1f2235;
+    padding: 80px;
+}
+
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #24263b;
+    border-radius: 14px;
+    border: 2px solid #ff4a57;
+    margin-bottom: 28px;
+    text-align: center;
+    padding: 70px;
+    cursor: pointer;
+}
+
+.card:hover i{
+    color: #ff4a57;
+   
+}
+.spin {
+    font-size: 2em;
+  }
+  .spin:hover{
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+ 
